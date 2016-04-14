@@ -35,7 +35,7 @@ CACHE_DIR="$2/vendor"
 LP_DIR=`cd $(dirname $0); cd ..; pwd`
 BUILDPACK_DIR="$(dirname $(dirname $0))"
 GCC_VERSION=4.8
-GLIBC_VERSION=2.4
+GLIBC_VERSION=2.0
 
 # fix STACK variable if unset
 if [ -z "${STACK}" ];
