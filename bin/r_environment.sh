@@ -14,7 +14,7 @@ export R_INCLUDE="/app/vendor/R/lib64/R/include"
 #export CPPFLAGS="-I/app/.apt/usr/lib/gcc/x86_64-linux-gnu/glib-$GLIBC_VERSION/string/ -I/app/.apt/usr/lib/gcc/x86_64-linux-gnu/glib-$GLIBC_VERSION/time -I/usr/include/x86_64-linux-gnu/sys -I/usr/include/x86_64-linux-gnu/gnu"
 
 #ls -l /usr/lib/x86_64-linux-gnu/
-ls -l $R_HOME/lib
+ls -l $R_HOME/lib/
 #ls -l $VENDOR_DIR/R
 ln -s /usr/lib/x86_64-linux-gnu/libreadline.so $R_HOME/lib64/libreadline.so.6 2>&1
 ln -s /usr/lib/x86_64-linux-gnu/libmpfr.so.4.1.2 $R_HOME/lib64/libmpfr.so.3 2>&1
