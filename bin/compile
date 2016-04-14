@@ -90,7 +90,7 @@ cp -R $VENDOR_DIR/R/* /app/vendor/R
 # (tried using LDFLAGS, LD_LIBRARY_PATH and LIBRARY_PATH but didn't work)
 ls -l /usr/lib/x86_64-linux-gnu
 cp -R /usr/lib/gcc/x86_64-linux-gnu/$GCC_VERSION/* /app/.apt/usr/lib/gcc/x86_64-linux-gnu/$GCC_VERSION
-ls -l /app/.apt/usr/
+ls -l /app/.apt/usr/lib/
 cp -R /usr/lib/x86_64-linux-gnu/glib-$GLIBC_VERSION/* /app/.apt/usr/lib/x86_64-linux-gnu/glib-$GLIBC_VERSION
 # cp /usr/lib/gcc/x86_64-linux-gnu/$GCC_VERSION/liblto_plugin.so /app/.apt/usr/lib/gcc/x86_64-linux-gnu/$GCC_VERSION/liblto_plugin.so
 
