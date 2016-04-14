@@ -89,7 +89,7 @@ cp -R $VENDOR_DIR/R/* /app/vendor/R
 # trialed and errored on this; copy over libs to gfortran, so
 # that liblto_plugin.so and others can be found
 # (tried using LDFLAGS, LD_LIBRARY_PATH and LIBRARY_PATH but didn't work)
-ls -l /usr/lib/
+ls -l /usr/lib/x86_64-linux-gnu
 cp -R /usr/lib/gcc/x86_64-linux-gnu/$GCC_VERSION/* /app/.apt/usr/lib/gcc/x86_64-linux-gnu/$GCC_VERSION
 #cp -R /usr/lib/glibc-$GLIBC_VERSION /app/.apt/usr/lib/glibc-$GLIBC_VERSION
 # cp /usr/lib/gcc/x86_64-linux-gnu/$GCC_VERSION/liblto_plugin.so /app/.apt/usr/lib/gcc/x86_64-linux-gnu/$GCC_VERSION/liblto_plugin.so
