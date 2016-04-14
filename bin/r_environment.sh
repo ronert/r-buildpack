@@ -15,6 +15,7 @@ export R_INCLUDE="/app/vendor/R/lib64/R/include"
 
 ls -l /usr/lib/x86_64-linux-gnu/
 ls -l $R_HOME
+ls -l $VENDOR_DIR
 ln -s /usr/lib/x86_64-linux-gnu/libreadline.so $R_HOME/lib64/libreadline.so.6 2>&1
 ln -s /usr/lib/x86_64-linux-gnu/libmpfr.so.4.1.2 $R_HOME/lib64/libmpfr.so.3 2>&1
 ln -s /usr/lib/x86_64-linux-gnu/libgmp.so.10.1.3 $R_HOME/lib64/libgmp.so.2 2>&1
